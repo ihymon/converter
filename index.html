@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="uan" placeholder="uan">
+    <input type="text" id="usd" placeholder="usd">
+    <input type="text" id="pl" placeholder="pl">
+    
+    <button id="convert">convert</button>
+    
+    
+    <script>
+    
+        
+        
+        convert.onclick = function(){
+            let uanCurrency = uan.value;
+            let usdCurrency = usd.value;
+            let plCurrency = pl.value;
+            
+            usd.value = uanCurrency/30;
+            pl.value = uanCurrency/7;
+            
+        }
+    
+    </script>
+</body>
+</html>
